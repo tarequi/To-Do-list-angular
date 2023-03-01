@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "text": "quis ut nam facilis et officia qui",
+      "day": "Monday",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "fugiat veniam minus",
+      "day": "Monday",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "et porro tempora",
+      "day": "Monday",
+      "reminder": true
+    },
+    {
+      "text": "Master Angular",
+      "day": "2023-01-15",
+      "id": 6,
+      "reminder": false
+    }
+  ]
+}

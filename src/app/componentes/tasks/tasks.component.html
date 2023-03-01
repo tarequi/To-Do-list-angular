@@ -1,0 +1,15 @@
+<a routerLink="footer">Go To Footer</a>
+<app-add-task 
+(addTaskFunction)="addTasks($event)"
+ [hidden]="toggleForm">
+</app-add-task>
+
+
+<app-task-list 
+*ngFor="let each_task of tasks" 
+[task]="each_task" 
+[title]="title_from_pearent"
+(delete_task)="deleteFromTaskComponent(each_task)"
+(toggleReminder)="togl($event)"
+>
+</app-task-list>  

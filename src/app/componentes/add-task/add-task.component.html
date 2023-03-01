@@ -1,0 +1,11 @@
+<form *ngIf="toggleForm" [formGroup]="taskForm" (ngSubmit)="onSubmit()">
+    <label for="taskName">Task Name: </label>
+    <input id="taskName" type="text" formControlName="text">
+    <div *ngIf="taskForm.controls['text'].invalid"  [ngStyle]="{color:'red'}">
+        Name is required.
+      </div>
+    <label for="TaskDate">Task Date: </label>
+    <input id="TaskDate" type="date" formControlName="day">
+
+    <input type="submit" class="submit">
+</form>  
